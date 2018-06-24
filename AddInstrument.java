@@ -64,6 +64,7 @@ public class AddInstrument {
 		addButton.setOnAction(e -> {
 
 			addWasClicked();
+			chooseStage.close();
 
 		});
 
